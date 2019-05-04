@@ -5,8 +5,8 @@ class catalogController extends Controller
 
     public function __construct()
     {
-		$this->model = new catalogModel();
-		$this->view = new View();
+		    $this->model = new catalogModel();
+		    $this->view = new View();
     }
 
     public function index()

@@ -1,9 +1,10 @@
 <?
-class DB{
+class DB
+{
     const USER = "root";
     const PASS = '';
     const HOST = "localhost";
-    const DB   = "Library";
+    const DB = "Library";
 
     public static function connToDB()
     {
